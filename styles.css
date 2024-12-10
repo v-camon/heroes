@@ -1,0 +1,82 @@
+h1 {
+    text-align: center;
+}
+
+table{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+thead{
+    height: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+td:not(tfoot td){
+    height: 80px;
+    border: 1px solid rgb(221, 221, 221);
+    border-bottom: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tbody{
+    border: 1px solid transparent;
+    text-align: center;
+
+}
+
+.notop_border{
+    border-top: none;
+}
+
+
+tfoot{
+    height: 50px;
+    background-color:turquoise;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+
+}
+
+.marvel_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+    
+
+}
+
+model-viewer{
+    animation: foo linear both;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  
+body{
+    background-color: white;
+}
