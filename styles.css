@@ -73,13 +73,19 @@ body {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
-    background-image: url(./img/bg.jpg);
+    background-image: url(./img/black.png);
     background-size: cover;
     background-position: center;
 }
 
 
 
+
+.home_icons{
+    left: 1%;
+    top: 1%;
+    position: fixed;
+}
 
 
 
