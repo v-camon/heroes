@@ -7,22 +7,69 @@
     <link rel="stylesheet" href="../assets/styles.css">
     <title>Captain America</title>
     <!-- <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script> Ha estado caido por lo que de momento no se puede usar -->
-    <script type="module" src="https://modelviewer.dev/node_modules/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script type="module"
+        src="https://modelviewer.dev/node_modules/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 </head>
 
 <body>
 
-
-    <!-- To try
-    https://stackoverflow.com/questions/25970787/use-a-div-as-a-background-for-another-element 
-    -->
-
     <a href="../index.html"> <img class="home_icons" src="../img/home_icons/captain.png" alt="Cpatain Home"> </a>
+
+    <main>
+        <section class="title">
+
+            <h1>THE WINTER SOLDIER</h1>
+
+        </section>
+
+
+        <section class="video">
+
+            <button class="close_button">X</button>
+
+
+
+            <img class="video" src="../img/video.png" alt="Trailer">
+            <iframe src="https://www.youtube.com/embed/NLWsK1ZFunA" frameborder="0"
+                allow="autoplay"></iframe>
+
+            </iframe>
+
+
+        </section>
+
+
+        <section class="director">
+            <p class="info_title">DIRECTED BY</p>
+            <p class="info_content">JOE RUSSO <br> ANTHONY RUSSO</p>
+
+        </section>
+
+
+        
+        <section class="cast">
+            <p class="info_title">CAST</p>
+            <p class="info_content">CHRIS EVANS <br> SAMUEL L. JACKSON <br> SEBASTIAN STAN </p>
+
+
+
+        </section>
+
+        <section class="release">
+            <p class="info_title">RELEASE DATE</p>
+            <p class="info_content">MAR 28, 2014</p>
+
+        </section>
+    </main>
+
 
     <model-viewer alt="Captain Amerca Model" src="../model/captain.glb"></model-viewer>
 
     <script src="../assets/script.js"></script>
+
+
+
 
 </body>
 
