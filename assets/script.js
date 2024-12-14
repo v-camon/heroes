@@ -1,3 +1,5 @@
+// Codigo para rotar con el scroll de la web
+
 const modelViewer = document.querySelector('model-viewer');
 
 const maxRotation = 300;
@@ -14,6 +16,8 @@ window.addEventListener('scroll', () => {
 modelViewer.orientation = `0deg 0deg ${inital_position}deg`;
 
 
+
+// Eventos on click para mostrar y ocultar el trailer
 
 document.querySelector('[alt="Trailer"]').addEventListener('click', function() {
     const iframe = document.querySelector('iframe');

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/styles.css">
     <title>Thor</title>
-    <!-- <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script> Ha estado caido por lo que de momento no se puede usar -->
+    <!-- Modulo de model-viewer para cargar modelos 3D -->
     <script type="module"
         src="https://modelviewer.dev/node_modules/@google/model-viewer/dist/model-viewer.min.js"></script>
 
@@ -14,15 +14,20 @@
 </head>
 
 <body>
+    <!-- Icono de volver a la página principal -->
+
     <a href="../index.html"> <img class="home_icons" src="../img/home_icons/thor.png" alt="Thor Home"> </a>
 
     <main>
+        <!-- Título de la película -->
+
         <section class="title">
 
             <h1>LOVE AND THUNDER</h1>
 
         </section>
 
+        <!-- Sección del video del trailer -->
 
         <section class="video">
 
@@ -35,6 +40,8 @@
 
 
         </section>
+
+        <!-- Sección de información -->
 
         <section class="director">
             <h6 class="info_title">DIRECTED BY</h6>
@@ -59,6 +66,8 @@
         </section>
 
     </main>
+
+    <!-- Modelo 3D y script para desplazar el modelo -->
 
     <model-viewer alt="Thor Model" src="../model/thor.glb"></model-viewer>
 
