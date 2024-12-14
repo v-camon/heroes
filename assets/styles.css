@@ -190,12 +190,13 @@ main {
 
 iframe{
     position: fixed;
-    left: 0;
+    left: 1%;
     z-index: 3;
     height: 500px;
     width: 600px;
     transform: translateY(-50%);
     display: none;
+    border: 0;
 }
 
 iframe.active{
@@ -206,7 +207,7 @@ iframe.active{
 
 .close_button {
     position: fixed;
-    left:20;
+    left:30%;
     top: 10px;
     background-color: white;
     color: black;
