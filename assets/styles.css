@@ -197,8 +197,9 @@ iframe{
     position: fixed;
     left: 1%;
     z-index: 3;
-    height: 500px;
-    width: 600px;
+    height: 46%;
+    width: 31%;
+         
     transform: translateY(-50%);
     display: none;
     border: 0;
